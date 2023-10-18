@@ -1,0 +1,556 @@
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container1 {
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    left: 50px;
+    margin-top: 50px;
+
+    background: #132b8a;
+
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.container4 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+    background:  #001b88;
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header.fixed {
+    height: auto;
+
+    position: fixed;
+
+    background-color: #001b88;
+}
+
+.header.fixed .header__inner {
+    padding-top: -5px;
+    padding-bottom: -5px;
+
+    border-bottom: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -54px 0;
+}
+
+
+/* Nav
+===================*/
+
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    margin-left: 70px;
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+
+/* Intro
+===================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    margin-top: 90px;
+    padding-top: 100px;
+
+    background: url("img/baner.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.intro__title {
+    margin: 0 0 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: -148px;
+    margin-top: -90px;
+}
+
+.intro__subtitle {
+    margin-bottom: 60px;
+
+    font-size: 27px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    margin-left: -148px;
+    margin-top: 170px;
+
+}
+
+
+/* Button
+===================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+
+    transition: background .1s linear;
+    margin-left: -1055px;
+}
+
+.btn--red {
+    background-color: #132b8a;
+}
+
+.btn--red:hover {
+    background-color: #0c387a;
+}
+
+.btn--long {
+    min-width: 280px;
+}
+
+
+
+/* Preimushchestva
+===================*/
+.preimushchestva {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+}
+
+.preimushchestva__item {
+    width: 33.33333%;
+    padding: 0 40px;
+    margin: 25px 0;
+
+    text-align: center;
+}
+
+.preimushchestva__icon {
+    margin-bottom: 25px;
+}
+
+.preimushchestva__title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.preimushchestvas__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -54px 0;
+    margin-left: 80px;
+    margin-top: -30px;
+
+}
+
+
+.karta {
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 95px;
+}
+
+.preim {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    margin-top: 90px;
+    margin-bottom: -20px;
+
+}
+
+.zagolovok {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    margin-top: -30px;
+}
+
+.podzagolovok {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.zagolovok1 {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.zagolovok2 {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+
+
+.div1 {
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+   
+.content {
+    width: 95%;
+    position: absolute;
+
+
+    line-height: 2.5;
+
+    height: 275px;
+    left: 15px;
+
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+
+    color: #ffffff;
+}
+
+.content1 {
+    width: 95%;
+    position: absolute;
+    
+    line-height: 2.5;
+    
+    height: 275px;
+    left: 15px;
+    
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    
+    color: #ffffff;
+       }
+
+/* Product
+===================*/
+* {
+    box-sizing: border-box;
+ }
+
+ .product-item {
+    width: 330px; 
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    transition: .3s ease-in;
+ }
+ .product-item:hover {
+    border-bottom: 2px solid #082E66;
+ }
+ .product-item img {
+    display: block;
+    width: 100%;
+ }
+ .product-list {
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 16px;
+    color: #132b8a;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #132b8a;
+ }
+
+ .img_1 {
+    display: flex;
+ }
+
+ .basseyn {
+    margin-top: 39px;
+
+ }
+
+ .nasosimg {
+    margin-top: 35px;
+
+ }
+
+ .nasos {
+    margin-top: -71px;
+
+ }
+
+.lestnitsaimg {
+    margin-top: -60px;
+}
+
+.lestnitsa {
+    margin-top: -23px;
+}
+
+
+
+/* Kompaniya
+===================*/
+
+.kompaniya {
+    overflow: hidden;
+    background-color: #132b8a;
+    margin-bottom: 200px;
+}
+
+.kompaniya__slider {
+    height: 490px;
+    overflow: hidden;
+}
+
+.kompaniya__slider.slick-initialized {
+    height: auto;
+}
+
+.kompaniya__item {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.kompaniya__photo {
+    width: 50%;
+    height: 490px;
+    position: relative;
+}
+
+.kompaniya__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.kompaniya__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.kompaniya__text {
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.kompaniya__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Footer
+===================*/
+
+.footer {
+    margin-top: -120px;
+    background-color: #001b88;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 0;
+    height: 180px;
+}
+
+.footer__block {
+    width: 33.33333%;
+    padding: 0 15px;
+
+    text-align: center;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__address {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+}
+
+
+
+
+
+
+
