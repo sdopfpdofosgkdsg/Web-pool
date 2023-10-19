@@ -379,20 +379,22 @@ p {
     width: 100%;
  }
  .product-list {
-    background: #fafafa;
     padding: 15px 0;
+    background: white;
  }
  .product-list h3 {
     font-size: 18px;
     font-weight: 400;
     color: #444444;
     margin: 0 0 10px 0;
+    background: white;
  }
  .price {
     font-size: 16px;
     color: #132b8a;
     display: block;
     margin-bottom: 12px;
+    background: white;
  }
  .button {
     text-decoration: none;
