@@ -362,7 +362,7 @@ p {
     box-sizing: border-box;
  }
 
- .product-item {
+  .product-item {
     width: 330px; 
     height: 400px;
     text-align: center;
@@ -377,10 +377,11 @@ p {
  .product-item img {
     display: block;
     width: 100%;
+    background: white;
  }
  .product-list {
-    padding: 15px 0;
     background: white;
+    padding: 15px 0;
  }
  .product-list h3 {
     font-size: 18px;
